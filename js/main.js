@@ -13,7 +13,6 @@ window.addEventListener("scroll", function(){
 
 })
 
-// Menu
 
 let enlacesHeader = document.querySelectorAll(".enlaces-header")[0];
 let semaforo = true;

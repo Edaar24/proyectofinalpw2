@@ -12,30 +12,7 @@
 
 <body>
 
-    <header class="header" id="inicio">
-        <div class="Menu">
-            <H1>Menu</H1>
-        </div>
-        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
-        <nav class="menu-navegacion">
-            <a href="#inicio">Inicio</a>
-            <a href="nosotros.html">Acerca de nosotros</a>
-            <a href="programas.html">Nuesto programas</a>
-            <a href="galeria.html">Galeria</a>
-            <a href="preguntas.html">Preguntas frecuentes</a>
-            <a href="blog.html">Blog</a>
-            <a href="eventos.html">Eventos</a> 
-            <a href="donaciones.html">Donaciones</a>
-            <a href="contactos.html">Contacto</a>
-        </nav>
-        <div class="contenedor head">
-            <h1 class="titulo">SKARSHOP</h1>
-            <p class="copy">¡Hola y bienvenidos a Skarshop! Nos alegra tenerte aquí. Somos tu destino
-                en línea para las últimas tendencias en moda, donde la calidad y el estilo se encuentran
-            </p>
-        </div>
-
-    </header>
+    {{>header}}
     <main>
         <section class="about container">
             <div class="about_texts">
@@ -77,25 +54,7 @@
 
     </main>
 
-    <footer id="footer">
-        <div class="contenedor footer-content">
-            <div class="contact-us">
-                <img src="fotos/Logo-Skarshop.png" width="60%">
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/skarshop07?mibextid=LQQJ4d" class="social-media-icon">
-                    <i class='bx bxl-facebook'></i>
-                </a>
-
-                </a>
-                <a href="https://www.instagram.com/skarshop7?igsh=MWVuOXZuYXFtNTBseQ=="
-                    class="social-media-icon">
-                    <i class='bx bxl-instagram'></i>
-                </a>
-            </div>
-        </div>
-        <div class="line"></div>
-    </footer>
+    {{>footer}}
 
     <section class="spinner-background">
         <div class="spinner"></div>

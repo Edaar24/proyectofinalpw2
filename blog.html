@@ -11,29 +11,7 @@
 </head>
 
 <body>
-    <header class="header" id="inicio">
-        <div class="Menu">
-            <H1>Menu</H1>
-        </div>
-        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
-        <nav class="menu-navegacion">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Acerca de nosotros</a>
-            <a href="programas.html">Nuesto programas</a>
-            <a href="galeria.html">Galeria</a>
-            <a href="preguntas.html">Preguntas frecuentes</a>
-            <a href="eventos.html">Eventos</a>
-            <a href="donaciones.html">Donaciones</a>
-            <a href="contactos.html">Contacto</a>
-        </nav>
-        <div class="contenedor head">
-            <h1 class="titulo">SKARSHOP</h1>
-            <p class="copy">¡Hola y bienvenidos a Skarshop! Nos alegra tenerte aquí. Somos tu destino
-                en línea para las últimas tendencias en moda, donde la calidad y el estilo se encuentran
-            </p>
-        </div>
-
-    </header>
+    {{>header}}
 
     <main>
 
@@ -80,28 +58,7 @@
 
     </main>
 
-    <footer id="footer">
-        <div class="contenedor footer-content">
-            <div class="contact-us">
-                <img src="fotos/Logo-Skarshop.png" width="60%">
-
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/lasjuntadas" class="social-media-icon">
-                    <i class='bx bxl-facebook'></i>
-                </a>
-                <a href="https://twitter.com/lasjuntadas?fbclid=IwAR3d24Mb-DQlsBjLj4vCG1rhAfE7_bVrPLOOafqGmQG6BYz3HWfzGx0I8ns"
-                    class="social-media-icon">
-                    <i class='bx bxl-twitter'></i>
-                </a>
-                <a href="https://www.instagram.com/lasjuntadas?fbclid=IwAR32JsK5Z-2fyExF2KHOlwJpRWtJPh6tw99W1vmDMnYNLNPC2YaETrqAvMY"
-                    class="social-media-icon">
-                    <i class='bx bxl-instagram'></i>
-                </a>
-            </div>
-        </div>
-        <div class="line"></div>
-    </footer>
+    {{>footer}}
 
     <section class="spinner-background">
         <div class="spinner"></div>
